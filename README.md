@@ -21,7 +21,7 @@ The dataset for this project consists of three months of daily records.
 #### **Data Sources**
 - **Date**: The specific day, recorded manually in Excel. 
 - **Screen time**: The screen time for both educational and non-educational platforms (hours), recorded from iOS Screen Time Data.
-- **Academic stress level***: A self-assessed academic stress level rating (scale of 1–10), recorded manually in Excel. 
+- **Academic stress level**: A self-assessed academic stress level rating (scale of 1–10), recorded manually in Excel. 
 - **Academic responsibilities**: Includes the number of homework assignments, exams, and projects, retrieved from academic calendar and recorded manually in Excel.
 - **Sleep duration**: Total sleep duration (hours), recorded in Sleep Diary App.
 - **Time spent on social activities**: Total time spent (hours), recorded manually in Excel.
@@ -49,7 +49,6 @@ The collected dataset undergoes preprocessing to ensure consistency and accuracy
 -Examined the relationship between total screen time and studying hours to determine if higher screen time negatively or positively correlates with study efficiency.
 
 -Investigated how external factors (academic stress, responsibilities, sleep duration, and social activities) influence screen time, potentially affecting study productivity.
-
 -Analyzed if specific types of screen usage (educational vs. non-educational) correlate differently with studying hours.
 
 ##### **4. Visualization**
