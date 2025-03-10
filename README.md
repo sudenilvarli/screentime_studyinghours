@@ -6,8 +6,7 @@ In this DSA210 term project, I will analyze how my screen time impacts my educat
 
 ## **Motivation**
 Screen time plays a crucial role in education through its impact on studying habits. While digital tools and educational platforms can enhance learning, unstructured screen use—especially for entertainment and social media might negatively affect academic productivity. Understanding how my screen habits correlate with my studying hours can help me develop more effective time management strategies. I hope to:
-
--Identify patterns between screen usage and studying hours to determine whether increased screen time leads to reduced study efficiency or if structured digital engagement enhances learning.
+*Identify patterns between screen usage and studying hours to determine whether increased screen time leads to reduced study efficiency or if structured digital engagement enhances learning.
 
 -Analyze how external factors such as academic responsibilities, stress levels, sleep duration, and social interactions influence screen time, potentially affecting my study habits.
 
