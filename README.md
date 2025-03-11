@@ -18,21 +18,21 @@ Screen time plays a crucial role in education through its impact on studying hab
 The dataset for this project consists of three months of daily records. 
 
 #### **Data Sources**
-- **Date**: The specific day, recorded manually in Excel. 
+- **Date**: The specific day, recorded manually in Google Sheets file in Drive. 
 - **Screen time**: The screen time for both educational and non-educational platforms (hours), recorded from iOS Screen Time Data. 
-- **Academic responsibilities**: Includes the number of homework assignments, exams, and projects, retrieved from academic calendar and recorded manually in Excel.
+- **Academic responsibilities**: Includes the number of homework assignments, exams, and projects, retrieved from academic calendar and recorded manually in Google Sheets file in Drive.
 - **Sleep duration**: Total sleep duration (hours), recorded in Sleep Diary App.
-- **Time spent on social activities**: Total time spent (hours), recorded manually in Excel.
+- **Time spent on social activities**: Total time spent (hours), recorded manually in Google Sheets file in Drive.
 - **Studying hours**: Total study hours (in hours), recorded in Toggle Track App.
 
-I will track all data using Excel and Applications that I mentioned to ensure accurate and consistent data collection. External factors such as illness, special circumstances, or unexpected routine changes will be noted and excluded from the analysis to maintain data reliability.
+I will track all data using Google Sheets and Applications that I mentioned to ensure accurate and consistent data collection. External factors such as illness, special circumstances, or unexpected routine changes will be noted and excluded from the analysis to maintain data reliability.
 
 #### **Data Analysis** 
 
 ##### **1. Data Preprocessing**
 The collected dataset undergoes preprocessing to ensure consistency and accuracy before analysis. This includes:
 
-- Cleaning and structuring the data recorded in Excel, iOS Screen Time, Toggl Track, and Sleep Diary App.
+- Cleaning and structuring the data recorded in Google Sheets, iOS Screen Time, Toggl Track, and Sleep Diary App.
 
 - Standardizing data formats across different sources for seamless integration.
 
