@@ -56,6 +56,14 @@ The collected dataset undergoes preprocessing to ensure consistency and accuracy
 
 ---
 
+## **Report**
+This study aims to understand how daily screen time habits influence studying hours, considering external factors such as academic stress, academic load, sleep duration, and time spent on social activities. Recognizing patterns in personal habits will enable better planning and improved academic efficiency.
+
+#### **Hypothesis**
+- Null Hypothesis(H0): There is no significant relationship between total screen time and studying hours. External factors like academic stress, responsibilities, sleep duration, and social activities do not significantly affect this relationship.
+- Alternative Hypothesis(H1): There is a significant negative relationship between total screen time and studying hours. Specifically;  increased non-educational screen time reduces studying hours,higher academic responsibilities increase studying hours despite screen time, shorter sleep durations and more time spent on social activities decrease studying hours further, educational screen time may have a weaker or positive effect on studying hours compared to non-educational screen time.
+
+
 
 
 
