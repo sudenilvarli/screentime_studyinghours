@@ -62,6 +62,80 @@ This study aims to understand how daily screen time habits influence studying ho
 ### **Hypothesis**
 - Null Hypothesis(H0): There is no significant correlation between total screen time and studying hours.
 - Alternative Hypothesis(H1): There is a significant negative correlation between total screen time and studying hours.
+  
+### **Machine Learning Models**
+To further explore how various behavioral and contextual variables affect studying hours, we implemented supervised machine learning models.
+Regression Models with Hyperparameter Tuning:
+- Random Forest Regressor
+
+- Decision Tree Regressor
+
+- K-Nearest Neighbors Regressor
+
+Each model was evaluated using; R² Score – to measure explanatory power, Mean Squared Error (MSE) – to evaluate prediction accuracy, Visual analysis of actual vs. predicted studying hours.
+
+### **Results of the Analysis**
+#### **Univariate Analysis** 
+- Studying Hours: A histogram of studying hours revealed a moderately right-skewed distribution. This suggests that while most days involved a typical amount of study, a few days showed exceptionally high dedication—likely during periods of intense academic responsibility.
+  
+- Screen Time: Screen time showed a broad distribution, with peaks around average daily screen exposure. Non-educational usage dominated the total screen time, particularly on weekends and low-stress days.
+  
+- Sleep Duration: Most values ranged between 5.5 and 8 hours. Days with longer sleep tended to align with increased studying hours, indicating a positive association between rest and academic productivity.
+  
+- Academic Responsibility: Days with a high number of academic tasks (homeworks or exams) generally correlated with reduced non-educational screen time and increased study commitment.
+  
+- Social Activity Time: Spikes in social time were common on weekends, and these days typically had lower study duration, confirming an inverse relationship.
+
+#### **Bivariate Analysis** 
+- Screen Time vs. Studying Hours: Scatter plots demonstrated a negative correlation between total screen time and study duration. As screen time increased, studying hours decreased significantly—especially when screen time was non-educational.
+  
+- Sleep vs. Studying Hours: A positive trend was observed: individuals who slept more (7–8+ hours) studied longer and more consistently compared to sleep-deprived days.
+  
+- Academic Responsibility vs. Screen Time: Bar charts revealed that as academic tasks increased, users naturally self-regulated by reducing screen exposure—especially from entertainment platforms.
+
+#### **Multivariate Analysis** 
+- **Correlation Heatmap:
+The strongest negative correlation was between screen time and studying hours, while sleep duration showed a weak positive correlation.
+Notable correlations:
+Screen Time vs. Studying Hours: −0.65
+Academic Responsibilities vs. Studying Hours: +0.58
+Sleep Duration vs. Studying Hours: +0.30
+
+- **Combined Influences:
+Days with both high academic responsibility and sufficient sleep tended to result in significantly higher studying hours, even when screen time was above average—suggesting possible compensatory focus.
+
+#### **Machine Learning Results** 
+The performance of the three models is summarized below:
+  |**Model**                |**Mean Squared Error(MSE)**   	 |**R^2**      |
+  |-------------------------|--------------------------------|-------------|
+  |Random Forest            | 0.36 				                   | 0.67        |
+  |Decision Tree	          | 0.41 				                   | 0.63        |
+  |K-Nearest Neighbors      | 0.44 				                   | 0.58        |
+
+Among the tested models, the Random Forest Regressor achieved the best overall performance, with the highest R^2 score and lowest MSE. This suggests that ensemble methods are more effective in capturing the nonlinear and complex relationships between daily habits and studying hours.
+
+### **Findings**
+-Screen time (especially non-educational) showed a strong negative correlation with studying hours.
+ 
+-High academic responsibility days led to increased studying hours and reduced unproductive screen time.
+
+-Sleep duration had a positive effect on studying hours — better-rested days resulted in more focused study sessions.
+
+-Social activity time, particularly on weekends, showed a moderate negative impact on studying time.
+
+### **Limitations**
+- The dataset is limited to one individual's daily observations over a 3-month period.
+- Self-reported values such as social interaction hours may introduce subjective bias.
+- The analysis does not include qualitative screen use details (e.g., content type).
+
+### **Conclusion**
+This project highlights the strong relationship between screen time habits and academic productivity. Unstructured screen use—especially for entertainment—reduces studying efficiency, while structured usage (such as educational platforms) may offer mild positive support.
+
+The machine learning models confirmed these patterns, with Random Forest showing the highest predictive performance. Overall, the study emphasizes the importance of mindful screen usage and offers a data-driven approach to managing digital behavior for academic improvement.
+
+
+
+
 
 
 
